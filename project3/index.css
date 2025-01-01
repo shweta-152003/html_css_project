@@ -1,0 +1,125 @@
+*{
+    padding: opx;
+    margin: 0px;
+}
+.container1{
+    background-image: url(BG\ Hero.png);
+  
+}
+.nav-container{
+    display: flex;
+     justify-content: space-between;
+     color: white;
+     padding: 7px 80px;
+}
+.sub-container{
+    display: flex;
+    padding: 11px 59px;
+    gap: 40px;
+}
+.box-container{
+    display: flex;
+    flex-direction: column;
+    padding: 36px 564px;
+    color: white;
+   position: relative;
+    top: 10px;
+    
+}
+.box{
+    display: flex;
+    align-items: center;
+    font-family: gilroy;
+}
+.box-container p{
+    font-family: Chronicle Display;
+
+}
+.box1{
+    height:2px ;
+    width: 72px;
+    background-color: rgba(251, 215, 132, 1);
+}
+.container2 {
+    
+   position: absolute;
+   top: 133px;
+   bottom: 20px;
+  
+   
+}
+.container2 img {
+
+  
+    width: 1519px;
+}
+
+.container3{
+ position: absolute;
+ top: 689px;
+ bottom: 20px;
+  
+}
+.container3 img {
+    width: 1519px;
+    /* background-image: url(VG.png); */
+}
+
+   
+.container4{
+    position: absolute;
+    top: 1088px;
+     border: solid purple;
+     color: white;
+     background-image: url(BG\ Content.png);
+     
+   }
+   .container4 img {
+    width: 1519px;
+}
+
+   .container5{
+    position: absolute;
+    top: 1306px;
+     
+   }
+   .container5 img {
+    width: 1519px;
+}
+    .container6{
+    position: absolute;
+    top: 1524px;
+  
+     
+   } 
+   .container6 img {
+    width: 1519px;
+}
+    .container7{
+    position: absolute;
+    top: 1740px;
+     
+   } 
+   .container7 img {
+    width: 1519px;
+}
+.image1 img{
+    width:566px ;
+    height:720px ;
+    /* border: solid purple; */
+    /* position: absolute; */
+}
+.one{
+
+    display: flex;
+    bottom: 10px;
+}
+.two{
+    /* border: solid rebeccapurple; */
+    padding: 0px 224px;
+    /* position: absolute; */
+}
+.image1{
+    position: absolute;
+    
+}

@@ -1,0 +1,79 @@
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(159, 159, 227);
+   
+}
+.about-me-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.id-container{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 100px;
+   justify-content: center;
+}
+.linkedin{
+    background-color: antiquewhite;
+    height: 80px;
+    width: 80px;
+}
+.linkedin img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 16px;
+    left: 13px;
+}
+.github{
+    background-color: antiquewhite;
+    height: 80px;
+    width: 80px;
+}
+.github img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 16px;
+    left: 13px;
+    
+}
+.whatsApp{
+    background-color: antiquewhite;
+    height: 80px;
+    width: 80px;
+}
+
+.whatsApp img{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 16px;
+    left: 13px;
+}
+.info-container{
+    height: 400px;
+    width: 500px;
+    background-color: antiquewhite;
+   
+}
+.info-container h1{
+    text-align: center;
+}
+.info-container p{
+    text-align: initial;
+    margin: 20px;
+    
+}
+.img-container img{
+    height: 400px;
+    width: 323px;
+    object-fit: cover;
+    
+    
+}
