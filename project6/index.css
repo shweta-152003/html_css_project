@@ -1,0 +1,347 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container1{
+    height: 100vh;
+    width: 100vw;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+}
+.header{
+    display: flex;
+    padding: 0px 82px;
+    gap: 30px;
+}
+.header h1{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(0, 0, 0, 1);
+}
+.logo{
+    display: flex;
+   
+}
+.img1{
+    display: flex;
+    padding: 0px 30px;
+    gap: 10px;
+}
+.img1 img{
+width: 28px;
+height: 28px;
+top: 36px;
+left: 1093px;
+padding: 4.67px 2.33px 4.67px 2.33px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+
+.sub-container{
+    background-image: url(scandinavian-interior-mockup-wall-decal-background\ 1.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.new{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: ; */
+    width: 643px;
+    height: 443px;
+    
+top: 253px;
+left: 739px;
+gap: 0px;
+opacity: 0px;
+border: solid black;
+background-color: rgba(255, 243, 227, 1);
+position: relative;
+top: 108px;
+    left: 740px;
+padding: 30px 30px;
+justify-content: space-evenly;
+}
+.new p{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 3px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(51, 51, 51, 1);
+}
+.new h1{
+    font-family: Poppins;
+font-size: 52px;
+font-weight: 700;
+line-height: 65px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(184, 142, 47, 1);
+}
+#lorem{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(51, 51, 51, 1);
+}
+.new button{
+    width: 222px;
+height: 74px;
+top: 585px;
+left: 778px;
+padding: 25px 72px 25px 72px;
+gap: 10px;
+opacity: 0px;
+background-color: rgba(184, 142, 47, 1);
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 178px;
+    
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+.heading h1{
+    font-family: Poppins;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(51, 51, 51, 1);
+}
+.heading p{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(102, 102, 102, 1);
+
+}
+.image1{
+    display: flex;
+    justify-content: space-between;
+   gap: 10px;
+   /* border: solid black; */
+   padding-top: 70px;
+}
+.image2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 178px;
+    
+}
+#h1-container {
+    font-family: Poppins;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(58, 58, 58, 1);
+margin-bottom: 50px;
+}
+.price{
+    display: flex;
+    
+}
+.box-container{
+    display: flex;
+    gap: 20px;
+}
+
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 0px;
+    transition-property: all;
+   
+}
+/* .box1:hover{
+    background-color: rgba(58, 58, 58, 1);
+} */
+.box1 h1{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 28.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.box1 p{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+ 
+}
+.price{
+    display: flex;
+    gap: 10px ;
+}
+#price1{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 600;
+line-height: 30px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(58, 58, 58, 1);
+}
+#price2{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-decoration-line: line-through;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(176, 176, 176, 1);
+}
+.info{
+    padding-left: 10px;
+    /* border: solid black; */
+}
+.container4{
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding: 50px 178px;
+    background-color: rgba(252, 248, 243, 1);
+}
+.sub-container1{
+    display: flex;
+    justify-content: space-between;
+}
+.info1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 193px 0px ;
+}
+.info1 h1{
+    width: 422px;
+height: 96px;
+top: 2557px;
+left: 100px;
+gap: 0px;
+opacity: 0px;
+
+}
+.info1 p{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(97, 97, 97, 1);
+}
+.info1 button{
+    width: 176px;
+height: 48px;
+top: 2733px;
+left: 100px;
+gap: 0px;
+opacity: 0px;
+background-color: rgba(184, 142, 47, 1);
+color: white;
+}
+.container5{
+    padding: 50px 178px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.address{
+    display: flex;
+    gap: 10px;
+}
+.info2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#furino {
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(0, 0, 0, 1);
+}
+#para{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(159, 159, 159, 1);
+}
+#para1{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(159, 159, 159, 1);
+}
+.footer{
+    padding: 10px 178px;
+    /* border-top: 1px solid; */
+   
+}
+.footer1{
+    /* border:solid black; */
+    padding-top: 40px;
+    border-top: 1px solid;
+}
