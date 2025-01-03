@@ -13,7 +13,7 @@
 .header{
     display: flex;
     padding: 0px 82px;
-    gap: 30px;
+    gap: 55px;
 }
 .header h1{
     font-family: Poppins;
@@ -32,7 +32,7 @@ color: rgba(0, 0, 0, 1);
 .img1{
     display: flex;
     padding: 0px 30px;
-    gap: 10px;
+    gap: 35px;
 }
 .img1 img{
 width: 28px;
@@ -63,7 +63,7 @@ top: 253px;
 left: 739px;
 gap: 0px;
 opacity: 0px;
-border: solid black;
+/* border: solid black; */
 background-color: rgba(255, 243, 227, 1);
 position: relative;
 top: 108px;
@@ -192,9 +192,15 @@ margin-bottom: 50px;
     transition-property: all;
    
 }
-/* .box1:hover{
+.box1:hover{
     background-color: rgba(58, 58, 58, 1);
-} */
+    color: white;
+
+   
+}
+.box1:hover  img{
+    background-color:rgba(58, 58, 58, 1) ;
+}
 .box1 h1{
     font-family: Poppins;
 font-size: 24px;
