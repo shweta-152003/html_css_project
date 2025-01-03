@@ -35,7 +35,10 @@
     gap: 12px;
 }
 .box-container1{
+    width: 100%;
     background-image: url(Rectangle\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
   
 
 }
@@ -184,15 +187,18 @@
 }
 .img-container{
     padding-top: 26px;
+    /* gap: 4px; */
     
 }
 #image1{
     display: flex;
+    gap: 6px;
 }
 .img1{
     background-image: url(Frame\ 61.png);
     height:289px ;
     width: 407px;
+    
 }
 .img2{
     background-image: url(Frame\ 62.png);
@@ -203,11 +209,13 @@
     background-image: url(Frame\ 64.png);
     height:289px ;
     width: 684px;
+    margin-top: 6px;
 }
 .img4{
     background-image: url(Frame\ 63.png);
     height:289px ;
     width: 407px;
+    margin-top: 6px;
 }
 .container5{
     padding: 60px 60px;
@@ -327,6 +335,7 @@
     justify-content: space-between;
     padding: 60px 0px;
     background-color: rgba(240, 240, 240, 1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.178);
 }
 .footer-container p{
     color:rgba(0, 0, 0, 0.6) ;
